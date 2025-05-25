@@ -60,7 +60,7 @@ async function run() {
       res.send(result);
     });
 
-    // Update a job
+    // Update a job -
     app.patch("/update-job/:id", async (req, res) => {
       const id = req.params.id;
       const jobData = req.body;
